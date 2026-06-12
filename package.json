@@ -1,0 +1,22 @@
+{
+  "name": "fraud-scoring-engine",
+  "version": "1.0.0",
+  "description": "Rule-based fraud detection scoring engine for health insurance claims",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/cli.ts generate",
+    "score": "tsx src/cli.ts score",
+    "metrics": "tsx src/cli.ts metrics",
+    "dashboard": "tsx src/cli.ts dashboard",
+    "all": "tsx src/cli.ts generate && tsx src/cli.ts score && tsx src/cli.ts metrics && tsx src/cli.ts dashboard",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
