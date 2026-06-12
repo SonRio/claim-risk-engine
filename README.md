@@ -14,6 +14,8 @@ ground truth, and a self-contained interactive dashboard.
 2000 claims are scored in **~10 ms**. No ML, no heavy dependencies — only TypeScript + a
 seeded PRNG.
 
+**Live dashboard:** https://sonrio.github.io/claim-risk-engine/
+
 ---
 
 ## Quick start
