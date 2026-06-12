@@ -1,4 +1,4 @@
-# Fraud Scoring — Metrics Report
+# Claim Risk Engine — Metrics Report
 
 **Decision threshold:** risk_score ≥ 21
 

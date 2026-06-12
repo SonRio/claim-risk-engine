@@ -47,7 +47,7 @@ const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
 export function buildMetricsMarkdown(scored: ScoredClaim[], labels: FraudLabel[]): string {
   const s = buildSummary(scored, labels);
   const lines: string[] = [];
-  lines.push('# Fraud Scoring — Metrics Report', '');
+  lines.push('# Claim Risk Engine — Metrics Report', '');
   lines.push(`**Decision threshold:** risk_score ≥ ${s.threshold}`, '');
   lines.push(`**Result:** ${s.pass ? '✅ PASS' : '❌ FAIL'} ` +
     `(target: recall ≥ ${pct(TARGET_RECALL)}, FPR ≤ ${pct(TARGET_FPR)})`, '');

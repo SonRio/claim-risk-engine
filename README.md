@@ -1,4 +1,4 @@
-# Fraud Detection Scoring Engine
+# Claim Risk Engine
 
 A rule-based engine that scores **2000 synthetic health-insurance claims** for fraud risk
 (0–100) and explains every flag with concrete, numeric evidence. It ships with a
