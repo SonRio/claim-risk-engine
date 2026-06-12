@@ -1,5 +1,5 @@
 {
-  "name": "fraud-scoring-engine",
+  "name": "claim-risk-engine",
   "version": "1.0.0",
   "description": "Rule-based fraud detection scoring engine for health insurance claims",
   "type": "module",
